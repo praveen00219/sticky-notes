@@ -102,8 +102,8 @@ body.dark-mode {
 /* button styling */
 
 button.getStart {
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
-  background-color: rgba(227, 216, 69, 0.552);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  background-color: rgba(43, 88, 223, 0.622);
   color: white;
 }
 
@@ -132,7 +132,7 @@ button.nav-item:disabled {
 
 button.getStart:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  background-color: rgba(227, 216, 69, 0.816);
+  background-color: rgba(43, 88, 223, 0.921);
   color: white;
   transform: translateY(-2px);
 }
@@ -166,8 +166,7 @@ section.notes-bg-img {
 
 /* Position text in the middle of the page/image */
 section .main {
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgba(0, 0, 0, 9%); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
